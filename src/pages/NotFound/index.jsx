@@ -1,9 +1,11 @@
-const  NotFound = () => {
-    return(
-        <div className='w-screen h-screen bg-black text-white'>
-            Error 404
-        </div>
-    )
-}
+import Layout from "../../components/Layout";
 
-export default NotFound
+const NotFound = () => {
+  return (
+    <Layout>
+      <span className="text-gray-100 text-6xl font-bold">Error 404</span>
+    </Layout>
+  );
+};
+
+export default NotFound;
