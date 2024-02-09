@@ -1,9 +1,13 @@
-const  LevelUp = () => {
-    return(
-        <div className='w-screen h-screen bg-black text-white'>
-            LevelUp
-        </div>
-    )
-}
+import Layout from "../../components/Layout";
 
-export default LevelUp
+const LevelUp = () => {
+  return (
+    <Layout>
+      <div>
+        <p className="text-gray-100 text-6xl font-bold">LevelUp</p>
+      </div>
+    </Layout>
+  );
+};
+
+export default LevelUp;

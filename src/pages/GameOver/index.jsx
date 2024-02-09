@@ -1,8 +1,13 @@
+import Layout from "../../components/Layout"
+
 const  GameOver = () => {
     return(
-        <div className='w-screen h-screen bg-black text-white'>
+        <Layout>
+        <p className="text-gray-100 text-6xl font-bold">
             GameOver
-        </div>
+        </p>
+
+        </Layout>
     )
 }
 
