@@ -8,7 +8,7 @@ const Home = () => {
       <Logo />
       <Button>Jugar</Button>
       <Button>Opciones</Button>
-      <Button>Instructuciones</Button>
+      <Button>Instrucciones</Button>
     </Layout>
   );
 };
