@@ -1,6 +1,6 @@
 import { XMarkIcon } from "@heroicons/react/24/solid";
 
-const Information = () => {
+const Information = ({state, setState}) => {
   const info = [
     "Objetivo del juego: El objetivo es responder correctamente a una serie de preguntas de opción múltiple para acumular la mayor cantidad de dinero posible y convertirse en millonario.",
     "Reglas del juego: Los jugadores deben responder correctamente a una serie de preguntas de diferentes niveles de dificultad. Cada pregunta tiene cuatro opciones de respuesta, de las cuales solo una es correcta.",
@@ -9,9 +9,11 @@ const Information = () => {
     "Fin del juego: El juego termina cuando el jugador responde incorrectamente a una pregunta y pierde todo el dinero acumulado. El jugador puede decidir retirarse en cualquier momento y llevarse el dinero acumulado hasta ese momento.",
   ];
   return (
-    <div className="w-2/4 h-3/4 overflow-hidden rounded-xl absolute grid place-content-center">
+    <>
+    { state &&
+    <div className="w-2/4 h-3/4 overflow-hidden rounded-xl absolute grid place-content-center shadow-md shadow-sky-200">
       <div className="w-full h-full bg-purple-950  text-white p-12 overflow-y-scroll">
-        <XMarkIcon className="w-8 h-8 absolute top-6 right-8 cursor-pointer" />
+        <XMarkIcon onClick={()=> setState(!state)} className="w-8 h-8 absolute top-6 right-8 cursor-pointer" />
         <h2 className="font-bold text-2xl mb-8">Instrucciones</h2>
         <ul>
           {info.map((i, index) => (
@@ -21,7 +23,8 @@ const Information = () => {
           ))}
         </ul>
       </div>
-    </div>
+    </div>}
+    </>
   );
 };
 export default Information;

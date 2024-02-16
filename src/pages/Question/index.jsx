@@ -16,7 +16,6 @@ const Question = () => {
   }
   return (
     <Layout>
-      <Logo />
       <div className="w-screen">
         {question.map((question) => (
           <Fragment key={question.id}>
