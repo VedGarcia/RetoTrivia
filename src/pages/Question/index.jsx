@@ -6,9 +6,9 @@ import data from "../../database/questionAnswers.json";
 import Logo from "../../components/Logo/index";
 
 const Question = () => {
-  const [currentPage, setCurrentPage] = useState(1);
+  const [currentQuestion, setCurrentQuestion] = useState(1);
   const [question, setQuestion] = useState(
-    data.questions.filter(({ id }) => id === currentPage)
+    data.questions.filter(({ id }) => id === currentQuestion)
   );
 
   function onClick(answers) {
