@@ -1,13 +1,14 @@
+import { Fragment, useEffect, useState } from "react";
 import Layout from "../../components/Layout/index";
 import TextBox from "../../components/TextBox";
 import SelectBox from "../../components/SelectBox";
 import data from "../../database/questionAnswers.json";
-import { Fragment, useEffect, useState } from "react";
+import Logo from "../../components/Logo/index";
 
 const Question = () => {
-  const [currentPage, setCurrentPage] = useState(1);
+  const [currentQuestion, setCurrentQuestion] = useState(1);
   const [question, setQuestion] = useState(
-    data.questions.filter(({ id }) => id === currentPage)
+    data.questions.filter(({ id }) => id === currentQuestion)
   );
 
   function onClick(answers) {

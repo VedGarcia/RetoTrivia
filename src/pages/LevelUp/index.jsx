@@ -1,18 +1,22 @@
-import { SparklesIcon, FaceSmileIcon} from '@heroicons/react/24/solid'
+import { SparklesIcon, FaceSmileIcon } from "@heroicons/react/24/solid";
 import Layout from "../../components/Layout";
 
 const LevelUp = () => {
   return (
     <Layout>
-      <div className="w-3/5 h-3/4 border-4 border-purple-800 shadow-lg shadow-purple-400 bg-purple-200 rounded-3xl p-10 grid place-content-center text-center">
-        <div className='flex'>
-        <SparklesIcon className="h-20 w-20 text-yellow-500 m-4" />
-        <p className="text-purple-800 text-8xl font-medium">¡Correcto!</p>
-        <SparklesIcon className="h-12 w-10 text-yellow-500 m-4" />
+      <div className="w-3/4 h-3/4 grid gap-6 place-content-center rounded-2xl  bg-purple-200 border-4 border-purple-600 ">
+        <div className="flex m-auto">
+          <SparklesIcon className="w-24 h-24 text-yellow-600" />
+          <p className="text-purple-800 text-6xl font-bold text-center">
+            ¡¡Correcto!!
+          </p>
+          <SparklesIcon className="w-20 h-20 text-yellow-600" />
         </div>
-        <p className="text-purple-600 text-4xl my-8 font-bold">Haz avanzado  un nivel.</p>
-        <p className="text-purple-500 text-3xl font-bold">¡Y haz ganado un punto!</p>
-        <FaceSmileIcon className='h-28 w-28 text-yellow-500 bg-purple-900 rounded-full my-10 m-auto'/>
+        <FaceSmileIcon className="text-yellow-600 w-36 h-36  bg-purple-800 rounded-full m-auto"/>
+        <p className="text-5xl text-center font-semibold text-indigo-800">
+          Haz respondido de manera correcta
+        </p>
+        <p className="text-3xl text-center font-semibold text-indigo-800">Nivel superado</p>
       </div>
     </Layout>
   );
