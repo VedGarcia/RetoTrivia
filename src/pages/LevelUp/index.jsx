@@ -4,6 +4,7 @@ import Layout from "../../components/Layout";
 const LevelUp = () => {
   return (
     <Layout>
+
       <div className="w-3/4 h-3/4 grid gap-6 place-content-center rounded-2xl  bg-purple-200 border-4 border-purple-600 ">
         <div className="flex m-auto">
           <SparklesIcon className="w-24 h-24 text-yellow-600" />

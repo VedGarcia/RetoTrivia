@@ -3,7 +3,7 @@ import Layout from "../../components/Layout/index";
 import TextBox from "../../components/TextBox";
 import SelectBox from "../../components/SelectBox";
 import data from "../../database/questionAnswers.json";
-import Logo from "../../components/Logo/index";
+import Logo from "../../components/Logo";
 
 const Question = () => {
   const [currentQuestion, setCurrentQuestion] = useState(1);
@@ -16,6 +16,8 @@ const Question = () => {
   }
   return (
     <Layout>
+
+      <Logo width={"1/3"} />
       <div className="w-screen">
         {question.map((question) => (
           <Fragment key={question.id}>
@@ -23,6 +25,7 @@ const Question = () => {
             <SelectBox onClick={onClick} items={question.answers_possible} />
           </Fragment>
         ))}
+        
       </div>
     </Layout>
   );

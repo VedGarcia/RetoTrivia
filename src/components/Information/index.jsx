@@ -14,10 +14,10 @@ const Information = ({state, setState}) => {
     <div className="w-2/4 h-3/4 overflow-hidden rounded-xl absolute  grid place-content-center shadow-md shadow-sky-200">
       <div className="w-full h-full bg-purple-950 scroll-p-4 text-white p-12 overflow-y-scroll">
         <XMarkIcon onClick={()=> setState(!state)} className="w-8 h-8 absolute top-6 right-8 cursor-pointer" />
-        <h2 className="font-bold text-2xl mb-8">Instrucciones</h2>
+        <h2 className="font-bold select-none text-2xl mb-8">Instrucciones</h2>
         <ul>
           {info.map((i, index) => (
-            <li className="text-lg mb-6" key={index}>
+            <li className="select-none text-lg mb-6" key={index}>
               {i}
             </li>
           ))}
