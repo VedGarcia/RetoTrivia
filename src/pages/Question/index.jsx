@@ -6,23 +6,20 @@ import data from "../../database/questionAnswers.json";
 import Logo from "../../components/Logo";
 
 const Question = () => {
-  const [currentQuestion, setCurrentQuestion] = useState(1);
+  const [currentQuestion, setCurrentQuestion] = useState(2);
   const [question, setQuestion] = useState(
     data.questions.filter(({ id }) => id === currentQuestion)
   );
 
-  function onClick(answers) {
-    console.log(answers);
-  }
-  return (
+   return (
     <Layout>
 
-      <Logo width={"1/3"} />
+      <Logo width={"2/5"} />
       <div className="w-screen">
         {question.map((question) => (
           <Fragment key={question.id}>
             <TextBox>{question.name}</TextBox>
-            <SelectBox onClick={onClick} items={question.answers_possible} />
+            <SelectBox items={question.answers_possible } correctResponse={question.correct_answer} />
           </Fragment>
         ))}
         

@@ -1,5 +1,5 @@
-import { FaceFrownIcon } from "@heroicons/react/24/solid";
-
+import { FaceFrownIcon, ArrowPathIcon } from "@heroicons/react/24/solid";
+import { Link } from "react-router-dom";
 import Layout from "../../components/Layout";
 
 const GameOver = () => {
@@ -16,6 +16,12 @@ const GameOver = () => {
         <p className="text-sky-800 text-3xl font-bold">
           ¡Tu puedes! No te rindas...
         </p>
+        <Link
+          className="hover:bg-purple-800 w-2/4 h-12 border-4 m-auto border-purple-900 hover:shadow-xl hover:shadow-violet-500 rounded-full grid place-content-center p-4 text-3xl font-medium text-purple-900 hover:text-white"
+          to={"/"}
+        >
+          <ArrowPathIcon className="w-8 h-8" />
+        </Link>
       </div>
     </Layout>
   );
