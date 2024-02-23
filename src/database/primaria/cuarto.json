@@ -1,0 +1,244 @@
+{
+  "question": [
+    {
+      "id": 1,
+      "name": "¿Cuáles son los elementos principales de un cuento?",
+      "correct_answer": 1,
+      "answers_possible": [
+
+        {"id":1, 
+        "name":"Narrador, personajes, acciones, tiempo y lugar",
+        "order":1 },
+
+        {"id":2,
+        "name":"Trama, explosiones, acciones, estado y emoción",
+        "order":2 },
+
+        {"id":3,
+        "name":"Imaginación, superhéroes, autos y lugar",
+        "order":3},
+
+        {"id":4,
+        "name":"Narrador, resumen, corazones, valores y moral",
+        "order":4}
+      ]
+    },
+    {
+        "id": 2,
+        "name": "¿Cómo se llaman los signos que se usan para reflejar emociones en un texto?",
+        "correct_answer": 2,
+        "answers_possible": [
+  
+          {"id":5, 
+          "name":"Los puntos suspensivos",
+          "order":1 },
+  
+          {"id":6,
+          "name":"Signos de exclamación",
+          "order":2 },
+  
+          {"id":7,
+          "name":"Signos de interrogación",
+          "order":3},
+  
+          {"id":8,
+          "name":"Los paréntesis",
+          "order":4}
+        ]
+      },
+
+      {
+        "id": 3,
+        "name": "¿Cómo se llama el perímetro de un círculo?",
+        "correct_answer": 2,
+        "answers_possible": [
+  
+          {"id":9, 
+          "name":"La tangente",
+          "order":1 },
+  
+          {"id":10,
+          "name":"La circunferencia",
+          "order":2 },
+  
+          {"id":11,
+          "name":"El vértice",
+          "order":3},
+  
+          {"id":12,
+          "name":"El angulo",
+          "order":4}
+        ]
+      },
+   
+      {
+        "id": 4,
+        "name": "¿Cuál cadena numérica son de números primos?",
+        "correct_answer": 4,
+        "answers_possible": [
+  
+          {"id":13, 
+          "name":"26, 27, 28",
+          "order":1 },
+  
+          {"id":14,
+          "name":"14, 15, 18",
+          "order":2 },
+  
+          {"id":15,
+          "name":"32, 33, 35",
+          "order":3},
+  
+          {"id":16,
+          "name":"17, 19, 23",
+          "order":4}
+        ]
+      },
+    
+      {
+        "id": 5,
+        "name": "¿Cuáles son los procesos que intervienen en el ciclo del agua?",
+        "correct_answer": 4,
+        "answers_possible": [
+  
+          {"id":17, 
+          "name":"Calentamiento, precipitación y solidificación",
+          "order":1 },
+  
+          {"id":18,
+          "name":"Precipitación, infiltración, congelación y enfriamiento",
+          "order":2 },
+  
+          {"id":19,
+          "name":"Evaporación, congelación y calentamiento",
+          "order":3},
+  
+          {"id":20,
+          "name":"Evaporación, condensación, precipitación e infiltración",
+          "order":4}
+        ]
+      },
+
+      {
+        "id": 6,
+        "name": "¿Qué es lo más importante para alcanzar tus metas?",
+        "correct_answer": 1,
+        "answers_possible": [
+  
+          {"id":21, 
+          "name":"La perseverancia",
+          "order":1 },
+  
+          {"id":22,
+          "name":"La ambientación",
+          "order":2 },
+  
+          {"id":23,
+          "name":"El entusiasmo",
+          "order":3},
+  
+          {"id":24,
+          "name":"El descanso",
+          "order":4}
+        ]
+      },
+
+      {
+        "id": 7,
+        "name": "¿Qué se hace antes de empezar a entrenar o de hacer un deporte?",
+        "correct_answer": 2,
+        "answers_possible": [
+  
+          {"id":25, 
+          "name":"Estiramiento",
+          "order":1 },
+  
+          {"id":26,
+          "name":"Calentamiento",
+          "order":2 },
+  
+          {"id":27,
+          "name":"Trotar",
+          "order":3},
+  
+          {"id":28,
+          "name":"Saltar",
+          "order":4}
+        ]
+      },
+
+      {
+        "id": 8,
+        "name": "¿Cuáles son los tipos de resistencias físicas?",
+        "correct_answer": 3,
+        "answers_possible": [
+  
+          {"id":29, 
+          "name":"Anaeróbica y diastólica",
+          "order":1 },
+  
+          {"id":30,
+          "name":"Aeróbica y constante",
+          "order":2 },
+  
+          {"id":31,
+          "name":"Aeróbica y anaeróbica",
+          "order":3},
+  
+          {"id":32,
+          "name":"Constante y regular",
+          "order":4}
+        ]
+      },
+
+      {
+        "id": 9,
+        "name": "¿Cuál es la batalla más importante de Simón Bolívar?",
+        "correct_answer": 3,
+        "answers_possible": [
+  
+          {"id":33, 
+          "name":"La batalla de Pichincha",
+          "order":1 },
+  
+          {"id":34,
+          "name":"La batalla de Bombona",
+          "order":2 },
+  
+          {"id":35,
+          "name":"La batalla de Carabobo",
+          "order":3},
+  
+          {"id":36,
+          "name":"La batalla de Ayacucho",
+          "order":4}
+        ]
+      },
+
+      {
+        "id": 10,
+        "name": "¿De qué idioma se deriva el español?",
+        "correct_answer": 1,
+        "answers_possible": [
+  
+          {"id":37, 
+          "name":"El latín",
+          "order":1 },
+  
+          {"id":38,
+          "name":"El escoces",
+          "order":2 },
+  
+          {"id":39,
+          "name":"El italiano",
+          "order":3},
+  
+          {"id":40,
+          "name":"El inglés",
+          "order":4}
+        ]
+      }
+        ]
+      }
+        
+      

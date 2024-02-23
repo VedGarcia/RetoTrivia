@@ -1,0 +1,290 @@
+{
+  "question": [
+    {
+      "id": 1,
+      "name": " Si divides 20 entre 4, ¿cuánto obtienes?",
+      "correct_answer": 3,
+      "answers_possible": [
+
+        {"id":1, 
+        "name":"6",
+        "order":1 },
+
+        {"id":2,
+        "name":"7",
+        "order":2 },
+
+        {"id":3,
+        "name":"5",
+        "order":3},
+
+        {"id":4,
+        "name":"4",
+        "order":4}
+      ]
+    },
+    {
+        "id": 2,
+        "name": "¿Cuál es el valor de 100 + 200 + 300?",
+        "correct_answer": 4,
+        "answers_possible": [
+  
+          {"id":5, 
+          "name":"500",
+          "order":1 },
+  
+          {"id":6,
+          "name":"700",
+          "order":2 },
+  
+          {"id":7,
+          "name":"800",
+          "order":3},
+  
+          {"id":8,
+          "name":"600",
+          "order":4}
+        ]
+      },
+
+      {
+        "id": 3,
+        "name": "¿Qué es una onomatopeya?",
+        "correct_answer": 1,
+        "answers_possible": [
+  
+          {"id":9, 
+          "name":"Una palabra que suena como lo que describe",
+          "order":1 },
+  
+          {"id":10,
+          "name":"Un dibujo",
+          "order":2 },
+  
+          {"id":11,
+          "name":"Una comparación",
+          "order":3},
+  
+          {"id":12,
+          "name":"Una exageración",
+          "order":4}
+        ]
+      },
+   
+      {
+        "id": 4,
+        "name": "¿Cuál de estas palabras es un plural?",
+        "correct_answer": 3,
+        "answers_possible": [
+  
+          {"id":13, 
+          "name":"Gato",
+          "order":1 },
+  
+          {"id":14,
+          "name":"Perro",
+          "order":2 },
+  
+          {"id":15,
+          "name":"Casas",
+          "order":3},
+  
+          {"id":16,
+          "name":"Libro",
+          "order":4}
+        ]
+      },
+    
+      {
+        "id": 5,
+        "name": "¿Qué estudia la Historia?",
+        "correct_answer": 4,
+        "answers_possible": [
+  
+          {"id":17, 
+          "name":"Los animales",
+          "order":1 },
+  
+          {"id":18,
+          "name":"Las matemáticas",
+          "order":2 },
+  
+          {"id":19,
+          "name":"Los planetas",
+          "order":3},
+  
+          {"id":20,
+          "name":"Los eventos del pasado",
+          "order":4}
+        ]
+      },
+
+      {
+        "id": 6,
+        "name": "¿Para qué se utilizan los globos terráqueos?",
+        "correct_answer": 1,
+        "answers_possible": [
+  
+          {"id":21, 
+          "name":"Para representar el planeta Tierra y aprender geografía",
+          "order":1 },
+  
+          {"id":22,
+          "name":"Como almohada",
+          "order":2 },
+  
+          {"id":23,
+          "name":"Para almacenar agua",
+          "order":3},
+  
+          {"id":24,
+          "name":"Para jugar fútbol",
+          "order":4}
+        ]
+      },
+
+      {
+        "id": 7,
+        "name": "¿Cuál es el planeta más cercano al Sol?",
+        "correct_answer": 2,
+        "answers_possible": [
+  
+          {"id":25, 
+          "name":"Tierra",
+          "order":1 },
+  
+          {"id":26,
+          "name":"Mercurio",
+          "order":2 },
+  
+          {"id":27,
+          "name":"Júpiter",
+          "order":3},
+  
+          {"id":28,
+          "name":"Saturno",
+          "order":4}
+        ]
+      },
+
+      {
+        "id": 8,
+        "name": "¿Cómo se llama el cambio de agua líquida a vapor?",
+        "correct_answer": 1,
+        "answers_possible": [
+  
+          {"id":29, 
+          "name":"Evaporación",
+          "order":1 },
+  
+          {"id":30,
+          "name":"Condensación",
+          "order":2 },
+  
+          {"id":31,
+          "name":"Congelación",
+          "order":3},
+  
+          {"id":32,
+          "name":"Precipitación",
+          "order":4}
+        ]
+      },
+
+      {
+        "id": 9,
+        "name": "¿Qué simbolizan las ocho estrellas en la bandera de Venezuela? ",
+        "correct_answer": 1,
+        "answers_possible": [
+  
+          {"id":33, 
+          "name":"Las ocho provincias originales que declararon la independencia",
+          "order":1 },
+  
+          {"id":34,
+          "name":"Los siete días de la semana",
+          "order":2 },
+  
+          {"id":35,
+          "name":"Los siete mares",
+          "order":3},
+  
+          {"id":36,
+          "name":"Los siete continentes",
+          "order":4}
+        ]
+      },
+
+      {
+        "id": 10,
+        "name": "¿Cuál es el  recurso natural más abundante de Venezuela?",
+        "correct_answer": 2,
+        "answers_possible": [
+  
+          {"id":37, 
+          "name":"Oro",
+          "order":1 },
+  
+          {"id":38,
+          "name":"Petróleo",
+          "order":2 },
+  
+          {"id":39,
+          "name":"Café",
+          "order":3},
+  
+          {"id":40,
+          "name":"Plata",
+          "order":4}
+        ]
+      },
+
+      {
+        "id": 11,
+        "name": "¿Qué es la agricultura?",
+        "correct_answer": 1,
+        "answers_possible": [
+  
+          {"id":41, 
+          "name":" La práctica de cultivar plantas y criar animales",
+          "order":1 },
+  
+          {"id":42,
+          "name":"El estudio de los astros",
+          "order":2 },
+  
+          {"id":43,
+          "name":"El arte de pintar",
+          "order":3},
+  
+          {"id":44,
+          "name":"La construcción de edificios",
+          "order":4}
+        ]
+      },
+
+      {
+        "id": 12,
+        "name": "¿Qué es la agricultura?",
+        "correct_answer": 1,
+        "answers_possible": [
+  
+          {"id":45, 
+          "name":"La práctica de cultivar plantas y criar animales ",
+          "order":1 },
+  
+          {"id":46,
+          "name":"El estudio de los astros",
+          "order":2 },
+  
+          {"id":47,
+          "name":"El arte de pintar",
+          "order":3},
+  
+          {"id":48,
+          "name":"La construcción de edificios",
+          "order":4}
+        ]
+      }
+        ]
+      }
