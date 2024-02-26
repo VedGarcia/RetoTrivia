@@ -1,4 +1,4 @@
-import { Fragment, useEffect, useState } from "react";
+import { Fragment, useState } from "react";
 import Layout from "../../components/Layout/index";
 import TextBox from "../../components/TextBox";
 import SelectBox from "../../components/SelectBox";
@@ -11,18 +11,19 @@ const Question = () => {
     data.questions.filter(({ id }) => id === currentQuestion)
   );
 
-   return (
+  return (
     <Layout>
-
-      <Logo width={"2/5"} />
+      <Logo width={"w-2/6"} margin={"mb-10"} />
       <div className="w-screen">
         {question.map((question) => (
           <Fragment key={question.id}>
             <TextBox>{question.name}</TextBox>
-            <SelectBox items={question.answers_possible } correctResponse={question.correct_answer} />
+            <SelectBox
+              items={question.answers_possible}
+              correctResponse={question.correct_answer}
+            />
           </Fragment>
         ))}
-        
       </div>
     </Layout>
   );

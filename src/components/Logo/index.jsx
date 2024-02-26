@@ -1,8 +1,8 @@
-export default function Logo({ width }) {
+export default function Logo({ width, margin }) {
   return (
     <div className="w-screen flex justify-center">
       <img
-        className={`w-${width} m-8`}
+        className={`${width} ${margin}`}
         src="/img/educate.png"
       />
     </div>
