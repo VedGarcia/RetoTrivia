@@ -1,8 +1,8 @@
 import { Fragment, useState } from "react";
+import context from "../../context/index"
 import Layout from "../../components/Layout/index";
 import TextBox from "../../components/TextBox";
 import SelectBox from "../../components/SelectBox";
-import data from "../../database/questionAnswers.json";
 import Logo from "../../components/Logo";
 
 const Question = () => {
