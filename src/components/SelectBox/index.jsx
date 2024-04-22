@@ -1,4 +1,7 @@
+import { useState } from "react";
+import { LevelContext } from "../../context";
 import SelectButton from "../SelectButton";
+
 
 const SelectBox = ({ items, correctResponse }) => {
   return (
