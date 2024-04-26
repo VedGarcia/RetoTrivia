@@ -1,4 +1,4 @@
-import { createContext, useState } from "react";
+import { createContext, useEffect, useState } from "react";
 import data from "../database/questionAnswers.json";
 
 
@@ -12,6 +12,10 @@ export const LevelProvider = ({ children }) => {
   const [question, setQuestion] = useState(
     data.questions.filter(({ id }) => id === currentQuestion)
   );
+
+  useEffect(()=>{
+    setQuestion( data.questions.filter(({ id }) => id === currentQuestion))
+  },[currentQuestion])
 
   return (
     <LevelContext.Provider value={{
