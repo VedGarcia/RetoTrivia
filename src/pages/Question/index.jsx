@@ -7,7 +7,7 @@ import Logo from "../../components/Logo";
 
 const Question = () => {
   const context = useContext(LevelContext)
- 
+
   return (
     <Layout>
       <Logo width={"w-2/6"} margin={"mb-10"} />
