@@ -11,6 +11,8 @@ export default {
         '2h-screen': '200vh'
       }
     },
+
+    
   },
   plugins: [],
 }

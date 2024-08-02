@@ -5,23 +5,26 @@ import Layout from "../../components/Layout";
 const LevelUp = () => {
   return (
     <Layout>
-      <div className="w-3/4 h-3/4 p-8 grid gap-6 place-content-center rounded-2xl bg-purple-200 border-4 border-purple-600 ">
+      <div className="w-3/4 h-3/4 p-8 grid gap-6 place-content-center rounded-2xl bg-purple-200 border-4 border-purple-900">
         <div className="flex m-auto">
-          <SparklesIcon className="w-20 h-20 text-yellow-600" />
+          <SparklesIcon className="w-20 h-20 text-yellow-400 animate-pulse" />
           <p className="text-purple-800 text-5xl font-bold text-center">
             ¡¡Correcto!!
           </p>
-          <SparklesIcon className="w-20 h-20 text-yellow-600" />
+          <SparklesIcon className="w-20 h-20 text-yellow-400 animate-pulse" />
         </div>
-        <FaceSmileIcon className="text-yellow-600 w-36 h-36  bg-purple-800 rounded-full m-auto" />
+        <FaceSmileIcon className="text-purple-100 w-36 h-36 bg-purple-800 rounded-full m-auto" />
         <p className="text-4xl text-center font-semibold text-indigo-800">
           Haz respondido de manera correcta
         </p>
         <p className="text-3xl text-center font-semibold text-indigo-800">
           Nivel superado
         </p>
-        <Link to={"/question"} className="hover:bg-purple-800 w-3/4 h-16 border-4 m-auto text-center border-purple-900 hover:shadow-xl hover:shadow-violet-500 rounded-full grid place-content-center p-4 text-3xl font-medium text-purple-900 hover:text-white">
-          Siquiente pregunta
+        <Link
+          to={"/question"}
+          className="hover:bg-purple-800 w-3/4 h-16 border-4 m-auto text-center border-purple-900 hover:shadow-xl hover:shadow-violet-500 rounded-full grid place-content-center p-4 text-3xl font-medium text-purple-900 hover:text-white transition-transform hover:scale-105"
+        >
+          Siguiente pregunta
         </Link>
       </div>
     </Layout>
