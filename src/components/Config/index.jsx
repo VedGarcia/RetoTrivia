@@ -7,7 +7,7 @@ const Configuration = ({ state, setState }) => {
     const storedState = localStorage.getItem("sonidoActivado");
     return storedState === "true";
   });
-  const [play, { pause, sound }] = useSound("/public/Sound/ganador.mp3", { loop: sonidoActivado });
+  const [play, { pause, sound }] = useSound("/public/Sound/Musica de Fondo.mp3", { loop: sonidoActivado });
 
   useEffect(() => {
     localStorage.setItem("sonidoActivado", sonidoActivado.toString());
