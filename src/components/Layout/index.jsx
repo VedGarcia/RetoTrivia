@@ -17,7 +17,6 @@ const Layout = ({ children }) => {
         <Configuration state={showConfiguration} setState={setShowConfiguration} />
         <div className="absolute top-6 right-4 flex flex-col gap-6">
           <Cog6ToothIcon onClick = {() => setShowConfiguration(!showConfiguration)} className="w-16 h-16 text-purple-800 bg-white rounded-full shadow-purple-800 border-4 border-purple-800 shadow-md cursor-pointer hover:bg-indigo-200" />
-          
           <InformationCircleIcon onClick={() => setShowInformation(!showInformation)} className="w-16 h-16 text-purple-800 bg-white rounded-full shadzow-purple-800 border-4 border-purple-800 shadow-md cursor-pointer hover:bg-indigo-200" />
         </div>
         {children}
