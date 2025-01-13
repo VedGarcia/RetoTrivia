@@ -10,14 +10,20 @@ export const LevelProvider = ({ children }) => {
 
   const level = ["primero", "segundo", "tercero", "cuarto", "quinto", "sexto"];
   //Para mostrar  las preguntas y respuestas en curso.
-  const [question, setQuestion] = useState(
-    dataPrimary.primero.filter(({ id }) => id === currentQuestion)
-  );
+  const [question, setQuestion] = useState(() => {
+    const shuffledQuestions = dataPrimary.primero.sort(
+      () => Math.random() - 0.5
+    );
+    return shuffledQuestions.find(({ id }) => id === currentQuestion);
+  });
 
   useEffect(() => {
-    setQuestion(dataPrimary.primero.filter(({ id }) => id === currentQuestion));
-  }, [currentQuestion]);
-
+    const shuffledQuestions = dataPrimary.primero.sort(
+      () => Math.random() - 0.5
+    );
+    setQuestion(shuffledQuestions.find(({ id }) => id === currentQuestion));
+  }, [currentQuestion, dataPrimary.primero]);
+  
   return (
     <LevelContext.Provider
       value={{

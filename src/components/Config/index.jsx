@@ -33,7 +33,7 @@ const Configuration = ({ state, setState }) => {
             {/* Aquí puedes agregar los elementos de configuración */}
             <ul>
               <li className="select-none text-lg mb-6">
-                Opción 1: Configuración de sonido
+                Configuración de sonido
                 <button
                   className={`${
                     sonidoActivado ? "bg-violet-500" : "bg-purple-800"
